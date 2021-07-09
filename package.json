@@ -1,0 +1,27 @@
+{
+  "name": "integrated-payment-confirmation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "export NODE_ENV=localy && nodemon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CassoHQ/Integrated-payment-confirmation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CassoHQ/Integrated-payment-confirmation/issues"
+  },
+  "homepage": "https://github.com/CassoHQ/Integrated-payment-confirmation#readme",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "moment": "^2.29.1",
+    "query-string": "^7.0.1"
+  }
+}
